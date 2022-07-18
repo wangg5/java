@@ -1,0 +1,30 @@
+1) download and install VScode
+2) download and install java JDK
+3) download and install the Coding Pack for Java - Windows
+        https://code.visualstudio.com/docs/languages/java
+
+4) set win10 environment variable.
+     C:\Program Files\Java\jdk-18.0.1.1\bin
+in user path.
+
+https://docs.oracle.com/en/database/oracle/machine-learning/oml4r/1.5.1/oread/creating-and-modifying-environment-variables-on-windows.html#GUID-DD6F9982-60D5-48F6-8270-A27EC53807D0
+
+references:
+
+How to install Visual Studio Code & Set up Environment Variable for JAVA | Windows OS |
+https://www.youtube.com/watch?v=fu4zdhfMVwE
+
+How to Set Up Java Development in Visual Studio Code on Windows | vsCode Java Development Basics
+https://www.youtube.com/watch?v=ClU9N4ub_Ko
+
+5) write you first java program.
+
+class hello {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+6) name this piece of code as hello.java.
+using cmd or git to compile and execute it:
+	compile: javac hello.java
+	execute: java hello
